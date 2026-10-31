@@ -5,9 +5,9 @@ UFind is a centralized web application designed to help college students report,
 
 ## Live Demo
 
-**Backend (Render):** [UFind API](https://your-render-service-name.onrender.com)
+**Backend (Render):** [UFind API](https://ufind-0h9a.onrender.com/)
 
-> Replace the placeholder with your actual Render deployment URL.
+
 
 ## Overview
 
@@ -74,7 +74,7 @@ UFind/
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Priya301224/Ufind.git
 cd UFind
 ```
 
@@ -98,19 +98,15 @@ Create a `.env` file in the backend directory.
 
 **Backend `.env`:**
 
-```env
-PORT=<YOUR_BACKEND_PORT>
-MONGODB_URI=<YOUR_MONGODB_URI>
-CLIENT_URL=<YOUR_FRONTEND_URL>
-```
+PORT=5001
+MONGODB_URI=mongodb://127.0.0.1:27017/ufind
+JWT_SECRET=ufind_super_secret_jwt_key_2026_secure
+ADMIN_EMAIL=admin@ufind.edu
+ADMIN_PASSWORD="Admin#UFind2026!"
+ADMIN_NAME="Campus Administrator"
 
-**Frontend `.env`:**
 
-```env
-VITE_API_URL=<YOUR_BACKEND_API_URL>
-```
 
-> Use the exact environment variable names required by your source code. Never upload credentials or API secrets to GitHub.
 
 ### 5. Run the Application
 
