@@ -138,9 +138,7 @@ Run the commands from their respective project directories.
 
 **Render Backend URL:**
 
-```text
-https://your-render-service-name.onrender.com
-```
+https://ufind-0h9a.onrender.com/
 
 
 
